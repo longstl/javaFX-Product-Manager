@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollBar?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ScrollBar layoutX="586.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="14.0" />
+      <TableView layoutX="7.0" layoutY="100.0" prefHeight="400.0" prefWidth="588.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="12.0" AnchorPane.topAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="col_Image" prefWidth="158.0" text="image" />
+          <TableColumn fx:id="col_Name" minWidth="0.0" prefWidth="143.0" text="name" />
+            <TableColumn fx:id="col_Price" prefWidth="160.0" text="price" />
+            <TableColumn fx:id="col_Action" prefWidth="138.0" text="action" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
